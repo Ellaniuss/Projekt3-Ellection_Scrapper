@@ -4,3 +4,8 @@ author: David Heczko
 email: heczko.david@gmail.com
 discord: ellaniuss
 """
+from bs4 import BeautifulSoup as bs
+import requests
+
+
+elected_parties = []
