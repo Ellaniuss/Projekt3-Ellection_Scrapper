@@ -20,8 +20,6 @@ for table in tables:
             parties.append(party_name)
 
 
-with open('parties.csv', mode='w', newline='') as file:
-    writer = csv.writer(file)
-    writer.writerow(parties)
+
 
 
